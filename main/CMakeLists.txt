@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "twai/twai_handler.c"
+        "mqtt/mqtt_client.c"
+        "logger/spiffs_logger.c"
+        "monitor/monitor.c"
+        "wifi/wifi_manager.c"
+    INCLUDE_DIRS
+        "."
+        "twai"
+        "mqtt"
+        "logger"
+        "monitor"
+        "wifi"
+)
